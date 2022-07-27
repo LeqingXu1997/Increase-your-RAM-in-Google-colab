@@ -12,4 +12,7 @@ If you want to use GPU to train your model, here is the code to check whether GP
 If you want to use the data in colab, you may need to upload it into colab from your computer, for some large data, it might be inconvenient. 
 A easier way is to upload your data to your Google drive first then call them from Drive, you can just run this code:  
 
-import os from google.colab import drive drive.mount('/content/drive')
+```
+import os from google.colab 
+import drive drive.mount('/content/drive')
+```
