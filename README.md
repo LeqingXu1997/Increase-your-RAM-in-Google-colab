@@ -7,7 +7,7 @@ Open that notebook and save it as a copy in your colab notebook, open that copy 
 
 If you want to use GPU to train your model, here is the code to check whether GPU is successfully deployed on your colab:  
 
-!nvidia-smi -L 
+```!nvidia-smi -L``` 
 
 If you want to use the data in colab, you may need to upload it into colab from your computer, for some large data, it might be inconvenient. 
 A easier way is to upload your data to your Google drive first then call them from Drive, you can just run this code:  
