@@ -5,6 +5,9 @@ https://colab.research.google.com/drive/155S_bb3viIoL0wAwkIyr1r8XQu4ARwA9
 
 Open that notebook and save it as a copy in your colab notebook, open that copy and connect it, then you will get a 25GB RAM notebook.    
 
+![image](https://user-images.githubusercontent.com/94091506/181276661-7bd3621d-4013-4032-a792-cfe0affb79cc.png)
+
+
 If you want to use GPU to train your model, here is the code to check whether GPU is successfully deployed on your colab:  
 
 ```!nvidia-smi -L``` 
@@ -16,3 +19,7 @@ A easier way is to upload your data to your Google drive first then call them fr
 import os from google.colab 
 import drive drive.mount('/content/drive')
 ```
+
+After allow it to connect to your drive, you can find the dictionary at left of your notebook, then you can directly call them.
+
+![image](https://user-images.githubusercontent.com/94091506/181276714-a81fd242-9deb-4ef4-83b9-b3bc7b722439.png)
